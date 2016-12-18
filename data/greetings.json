@@ -1,0 +1,17 @@
+[
+  {
+    "description": "Standard text",
+    "input": "World",
+    "expectedOutput": "Hello World!"
+  },
+  {
+    "description": "With leading spaces",
+    "input": "     World",
+    "expectedOutput": "Hello World!"
+  },
+  {
+    "description": "With special characters",
+    "input": "Charlie #winning",
+    "expectedOutput": "Hello Charlie #winning!"
+  }
+]

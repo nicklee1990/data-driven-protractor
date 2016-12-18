@@ -1,0 +1,32 @@
+{
+  "name": "data-driven-protractor",
+  "version": "1.0.0",
+  "description": "Small playground for showing how to create data driven protractor tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "node node_modules/protractor/bin/protractor protractor.conf.js",
+    "selenium-start": "node node_modules/webdriver-manager start",
+    "selenium-update-start": "node node_modules/webdriver-manager update; node node_modules/webdriver-manager start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicklee1990/data-driven-protractor.git"
+  },
+  "keywords": [
+    "data",
+    "protractor",
+    "testing",
+    "automation",
+    "selenium"
+  ],
+  "author": "Nick Lee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicklee1990/data-driven-protractor/issues"
+  },
+  "homepage": "https://github.com/nicklee1990/data-driven-protractor#readme",
+  "devDependencies": {
+    "protractor": "^4.0.13",
+    "webdriver-manager": "^10.2.10"
+  }
+}
